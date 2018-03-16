@@ -39,7 +39,7 @@ public class JavaSweeper extends JFrame {
     private void initFrame() {
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setTitle("JavaSweeper");
-        setResizable(false);
+        setResizable(true);
         pack();
         setLocationRelativeTo(null);
         setVisible(true);
